@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --aqua: #00CED1;
+  --aqua-dark: #008B8B;
+  --gold: #FFD700;
+  --void: #0a0a0f;
+}
+
+body {
+  background: var(--void);
+  color: white;
+  overflow-x: hidden;
+}
+
+.glow-aqua {
+  box-shadow: 0 0 20px rgba(0, 206, 209, 0.5), 0 0 40px rgba(0, 206, 209, 0.3);
+}
+
+.glow-gold {
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.5), 0 0 40px rgba(255, 215, 0, 0.3);
+}
+
+.text-glow-aqua {
+  text-shadow: 0 0 10px rgba(0, 206, 209, 0.8), 0 0 20px rgba(0, 206, 209, 0.5);
+}
+
+.gradient-aqua {
+  background: linear-gradient(135deg, #00CED1 0%, #008B8B 100%);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
