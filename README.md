@@ -2,13 +2,13 @@
 
 Landing page and app dashboard for Aqua Regia AI solutions.
 
-## Concepts
+## Design: Neural Alchemy
 
-Three design concepts to preview:
-
-1. **The Catalyst** (`/catalyst`) - Minimalist, symbol-focused design
-2. **The Laboratory** (`/laboratory`) - Liquid/dissolving gold effects
-3. **Neural Alchemy** (`/neural`) - AI neural network visualization
+AI neural network visualization with:
+- Animated node network with pulsing connections
+- Gold data pulses traveling through the network
+- Smooth transition to dashboard
+- Glass-morphism app tiles
 
 ## Development
 
@@ -17,7 +17,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to preview concepts.
+Open [http://localhost:3000](http://localhost:3000)
 
 ## Stack
 
@@ -26,22 +26,27 @@ Open [http://localhost:3000](http://localhost:3000) to preview concepts.
 - Tailwind CSS
 - Framer Motion
 
-## Structure
+## Apps (Dashboard)
 
+| App | Subdomain | Status |
+|-----|-----------|--------|
+| Agent Researcher | researcher.aquaregia.life | Live |
+| Deep Prospecting Engine | dpe.aquaregia.life | Live |
+| Knowledge Forge | forge.aquaregia.life | Coming Soon |
+| Signal Watch | signals.aquaregia.life | Coming Soon |
+
+## Deployment
+
+Deploy to Cloud Run or Vercel:
+
+```bash
+# Build
+npm run build
+
+# Or deploy to Vercel
+vercel --prod
 ```
-/               # Concept selector
-/catalyst       # Concept 1: The Catalyst
-/laboratory     # Concept 2: The Laboratory  
-/neural         # Concept 3: Neural Alchemy
-```
 
-Each concept includes:
-- Animated landing page
-- Click-through transition
-- Dashboard with app tiles
+---
 
-## Apps (Dashboard Tiles)
-
-- **Agent Researcher** - `researcher.aquaregia.life`
-- **Deep Prospecting Engine** - `dpe.aquaregia.life`
-- *(more coming)*
+*Where noble problems meet their match*
