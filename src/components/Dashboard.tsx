@@ -30,6 +30,14 @@ const apps: App[] = [
     status: "live",
   },
   {
+    name: "Signal Distillery",
+    description: "AI news refined into daily intelligence",
+    subdomain: "news",
+    icon: "⚗️",
+    color: "from-emerald-500 to-teal-600",
+    status: "live",
+  },
+  {
     name: "Knowledge Forge",
     description: "Enterprise document intelligence",
     subdomain: "forge",
