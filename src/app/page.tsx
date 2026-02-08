@@ -269,7 +269,7 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
             >
-              Neural Alchemy for the Modern Enterprise
+              AI that dissolves complexity
             </motion.p>
 
             <motion.p
@@ -278,7 +278,7 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.6 }}
             >
-              AI that dissolves complexity
+              Neural Alchemy for the Modern Enterprise
             </motion.p>
 
             {/* Enter button */}
