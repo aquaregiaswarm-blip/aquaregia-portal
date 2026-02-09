@@ -14,6 +14,14 @@ interface App {
 
 const apps: App[] = [
   {
+    name: "Scout",
+    description: "Agentic sales intelligence for VAR/SI teams",
+    subdomain: "scout",
+    icon: "🔭",
+    color: "from-indigo-500 to-purple-600",
+    status: "coming-soon",
+  },
+  {
     name: "Agent Researcher",
     description: "AI-powered client research and competitive intelligence",
     subdomain: "researcher",
